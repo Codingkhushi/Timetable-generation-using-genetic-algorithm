@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Generated Timetable</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>GENERATED TIMETABLE OF UMIT</h1>
+
+  <!-- Year Buttons -->
+<div id="year-buttons">
+  <button id="firstYearBtn">First Year</button>
+  <button id="secondYearBtn">Second Year</button>
+  <button id="thirdYearBtn">Third Year</button>
+  <button id="fourthYearBtn">Fourth Year</button>
+  <button id="allYearsBtn">All Years</button>
+</div>
+
+<!-- Semester Buttons (Initially Hidden) -->
+<div id="semester-buttons" style="display: none;">
+  <button id="oddSemBtn">Odd Semester</button>
+  <button id="evenSemBtn">Even Semester</button>
+</div>
+
+<!-- Timetable Table -->
+<table>
+  <thead>
+    <tr>
+      <th>YEAR</th>
+      <th>BRANCH</th>
+      <th>COURSE</th>
+      <th>TEACHER</th>
+      <th>ROOM</th>
+      <th>DAY</th>
+      <th>TYPE</th>
+      <th>TIME</th>
+    </tr>
+  </thead>
+  <tbody id="timetable-body"></tbody>
+</table>
+
+  <script src="script.js"></script>
+</body>
+</html>

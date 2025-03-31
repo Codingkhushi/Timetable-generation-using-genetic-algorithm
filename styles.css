@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 20px 0;
+    font-size: 28px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Year Buttons */
+  .year-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .year-buttons button {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .year-buttons button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 90%;
+    margin: 0 auto 20px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  th {
+    background: #007BFF;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  
+  td {
+    padding: 12px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Alternate Row Colors */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  /* Hover Effect */
+  tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    table {
+      width: 100%;
+    }
+  
+    th, td {
+      font-size: 14px;
+    }
+  }
+  #year-buttons, #semester-buttons {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
